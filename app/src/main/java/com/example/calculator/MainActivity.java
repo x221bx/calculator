@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void onclickEqule(View view) {
+    public void onclickEqual(View view) {
         if (!operation.isEmpty() && !textView.getText().toString().isEmpty()) {
             secondNumber = textView.getText().toString();
             String result = calc(operation, firstNumber, secondNumber);
