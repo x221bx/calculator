@@ -351,7 +351,7 @@
         android:background="@drawable/custom_operation_shape_bg"
         android:backgroundTint="@color/equal_bg_color"
         android:gravity="center"
-        android:onClick="onclickEqule"
+        android:onClick="onclickEqual"
         android:text="="
         android:textColor="@color/equal_text_color"
         android:textSize="40sp"
