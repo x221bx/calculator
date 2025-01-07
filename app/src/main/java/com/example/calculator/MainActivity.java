@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     String operation = "";
     String firstNumber = "";
     String secondNumber = "";
+    boolean isOperation = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,7 +76,8 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(result);
             firstNumber = result;
             secondNumber = "";
-            operation = ""; // Reset operation after equals
+            operation = "";   // Reset operation after equals
+            isOperation = true;
         }
     }
 
@@ -102,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
             return "Error";
         }
 
-        double result = 0;
+        double result;
         switch (operation) {
             case "+":
                 result = number1 + number2;

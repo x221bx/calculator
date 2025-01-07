@@ -53,7 +53,7 @@
         android:id="@+id/delete_digit_img"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_margin="10dp"
+        android:layout_margin="15dp"
         android:background="@drawable/clear_shap_bg"
         android:onClick="onclickRemove"
         android:padding="15dp"
